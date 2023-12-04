@@ -4,9 +4,9 @@
 </script>
 
 <title>Home</title>
-<h1>Manager SvelteKit App</h1>
+<h1>[Demo1]Manager SvelteKit App</h1>
 
-ここにヘッダーを書く
+Write your own header.
 
 <hr />
 
@@ -14,4 +14,4 @@
 
 <hr />
 
-ここにフッターを書く
+Write your own footer.
