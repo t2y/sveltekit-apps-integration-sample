@@ -18,6 +18,9 @@ Install dependencies and build an application for node servers.
 $ cd packages/kit-demo1/
 $ npm install
 $ npm run build
+$ cd ../kit-demo2/
+$ npm install
+$ npm run build
 $ cd ../kit-manager/
 $ npm install
 $ npm run build
@@ -26,7 +29,10 @@ Listening on 0.0.0.0:3000
 Listening on 0.0.0.0:3005
 ```
 
-Access to localhost:3000 for kit-manager. Also, kit-manager proxies kit-demo1 via http://localhost:3000/kit-demo1.
+Access to localhost:3000 for kit-manager.
+
+* kit-manager proxies kit-demo1 via http://localhost:3000/kit-demo1
+* kit-manager provides kit-demo2 via http://localhost:3000/kit-demo2/index.html
 
 ### kill the node.js process if exists
 
