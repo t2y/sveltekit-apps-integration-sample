@@ -36,9 +36,9 @@ Access to localhost:3000 for kit-manager.
 
 ### kill the node.js process if exists
 
-For some reason, a demo app might not be completed. Kill the process manually if it exists.
+For some reason, a demo app process might not be stopped. Kill the process manually if it exists.
 
 ```bash
-$ ps ax | grep kit-demo1
+$ ps ax | grep kit-
 $ kill ${process-id}
 ```
