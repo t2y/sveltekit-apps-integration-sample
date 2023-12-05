@@ -2,6 +2,8 @@
 
 Consideration to integrate multiple sveltekit applications.
 
+![architecture](./architecture.png)
+
 ## How to build
 
 Clone this repository.
@@ -31,8 +33,8 @@ Listening on 0.0.0.0:3005
 
 Access to localhost:3000 for kit-manager.
 
-* kit-manager proxies kit-demo1 via http://localhost:3000/kit-demo1
-* kit-manager provides kit-demo2 via http://localhost:3000/kit-demo2/index.html
+- kit-manager proxies kit-demo1 via http://localhost:3000/kit-demo1
+- kit-manager provides kit-demo2 via http://localhost:3000/kit-demo2/index.html
 
 ### kill the node.js process if exists
 
